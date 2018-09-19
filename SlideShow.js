@@ -1,12 +1,14 @@
-let images = ["./cats1.jpg", "./cats2.jpg"];
-let currentImg = images[0];
-
-document.getElementById("currentImg").src = currentImg;
+let images = ["cats1.jpg", "cats2.jpg"];
+let idx = 0;
 
 function previous() {
-  alert("Previous!");
+  if (idx == 0) { idx = images.length - 1; }
+  else { idx--; }
+  document.getElementById("currentImg").setAttribute("src", images[idx]);
 }
 
 function next() {
-  alert("Next!");
+  if (idx == images.length - 1) { idx = 0; }
+  else { idx++; }
+  document.getElementById("currentImg").setAttribute("src", images[idx]);
 }
