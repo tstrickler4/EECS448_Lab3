@@ -1,4 +1,4 @@
-let images = ["cats1.jpg", "cats2.jpg"];
+let images = ["cats1.jpg", "cats2.jpg", "cats3.jpg", "cats4.jpg", "cats5.jpg",];
 let idx = 0;
 
 function previous() {
