@@ -1,0 +1,20 @@
+body
+{
+  background-color: black;
+}
+
+div.header
+{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+div.profilePic
+{
+  position: fixed;
+  top: 15%;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
